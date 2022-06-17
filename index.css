@@ -1,0 +1,182 @@
+/* Eu sou um comentário */
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+}
+
+ /*código para quem não quer nenhuma bolinha na lista */
+li{
+   list-style: none;
+}
+
+.header-menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  padding-bottom: 32px;
+  height: 60px;
+  background-color: #724796;
+}
+
+.header-menu nav {
+ display: flex;
+ justify-content: flex-end;
+ width: 100%;
+}
+
+.lista-menu {
+ display: flex;
+ justify-content: space-evenly;
+ width: 50%;
+ align-items: center;
+}
+
+.lista-menu li>a {
+   color: #fff;
+   font-size: 18px;
+   text-decoration: inherit;
+}
+
+.principal{
+   height: 100vh;
+   display: flex;
+   background-color: #eaeaea; 
+}
+  
+.container{
+     margin-right: auto; /*uma margem automática pra todos os lados*/
+     margin-left: auto; /* margem esquerda*/
+     max-width: 960px; /*largura máxima*/
+     padding-right: 10px; /* Espaçamento direito*/
+     padding-left: 10px; /*Espaçamento esquerdo*/
+     width: 100%; /*largura*/
+}
+
+.subcontrainer-principal{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.container img {
+   border-radius: 60%;
+   max-width:200px;
+   max-height:150px;
+   width: auto;
+   height: auto;
+}
+
+.nome-completo{
+    font-size: 36px;
+    color: #ff4dbc;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    font-size: 20px;
+    color: #C6B5D5;
+    line-height: 32px;
+   }
+
+   .article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+
+   .topico-principal {
+    font-size: 36px;
+    color: #ff4dbc;
+   }
+
+   .lista-item {
+     padding: 32px;
+   }
+
+    .lista-item ul li {
+      margin-bottom: 32px;
+   }
+
+   .lista-titulo {
+     margin-bottom: 5px;
+     font-size: 22px;
+     color: #661e4b;
+     font-weight: 700;
+   }
+
+   .lista-local {
+    font-size: 18px;
+    color: #2F80ED;
+   }
+
+
+   .lista-descricao {
+      font-size: 18px;
+      margin-top: 5px;
+      line-height: 20px;
+      color: #2F80ED;
+      font-weight: 300;
+   }
+
+   .wrapper-portfolio {
+      background-color: #eaeaea;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .subtituto-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+   }
+
+
+   .article-lista {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+      margin-top: 100px;
+   }
+
+   .Footer {
+         background-color: #724796;
+         height: 30vh;
+         display: flex;
+         align-items: center;
+   }
+
+   .container-footer {
+     margin-right: auto; /*uma margem automática pra todos os lados*/
+     margin-left: auto; /* margem esquerda*/
+     max-width: 960px; /*largura máxima*/
+     padding-right: 10px; /* Espaçamento direito*/
+     padding-left: 10px; /*Espaçamento esquerdo*/
+     width: 100%; /*largura*/
+   }
+     
+   .lista-footer li {
+      color: #FFFF;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+   }
+   
+   .estilo-icon {
+      font-size: 32px;
+      margin-right: 10px;
+   }
+
+    
